@@ -1,0 +1,47 @@
+:root{
+
+--azul: rgb(33, 33, 253) ;
+
+}
+.servico-container {
+  padding: 100px 10% 60px; /* espaço considerando o header fixo */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.servico-banner {
+  background: #e5dbf0;
+  padding: 50px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.servico-banner h1 {
+  color: var(--azul);
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.servico-banner p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.servico-detalhes h2 {
+  margin-bottom: 20px;
+  color: var(--azul);
+  text-align: left;
+}
+
+.servico-detalhes ul {
+  list-style: disc;
+  margin-left: 20px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.servico-detalhes .btn {
+  display: inline-block;
+}

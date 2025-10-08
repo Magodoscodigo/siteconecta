@@ -1,0 +1,59 @@
+/* Espaçamento geral */
+section {
+  padding: 80px 10%;
+}
+
+/* Seção história */
+.historia p {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Missão, Visão e Valores */
+.missao-visao-valores .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.missao-visao-valores .card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.missao-visao-valores .card h3 {
+  color: var(--azul);
+  margin-bottom: 10px;
+}
+
+/* Equipe */
+.equipe-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.equipe-cards .card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.equipe-cards .card h3 {
+  color: var(--azul);
+  margin-bottom: 8px;
+}
+
+.equipe-cards .card p {
+  color: #444;
+}
+
